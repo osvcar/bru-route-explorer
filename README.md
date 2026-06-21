@@ -1,4 +1,4 @@
-# BRU Route Explorer v0.7.1
+# BRU Route Explorer v0.7.6
 # BRU Route Explorer
 
 Prototype static web app for visualising voluntary-return route options from BRU.

@@ -205,6 +205,11 @@ button:hover { filter: brightness(1.08); }
 .node-time {
   margin-top: .25rem;
   font-size: .9rem;
+  line-height: 1.45;
+}
+
+.node-time span {
+  display: block;
 }
 
 .node-status {
@@ -294,7 +299,7 @@ footer { text-align: center; padding: 1rem; color: var(--muted); }
 
 .days-bar {
   display: flex;
-  gap: .18rem;
+  gap: .12rem;
   margin-top: .45rem;
   flex-wrap: nowrap;
 }
@@ -303,7 +308,7 @@ footer { text-align: center; padding: 1rem; color: var(--muted); }
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 1.85rem;
+  min-width: 1.65rem;
   height: 1.25rem;
   border-radius: 999px;
   font-size: .58rem;
@@ -366,3 +371,5 @@ footer { text-align: center; padding: 1rem; color: var(--muted); }
   margin-left: .35rem;
   vertical-align: middle;
 }
+
+.days-bar{justify-content:space-between;}

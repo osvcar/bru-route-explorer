@@ -12,6 +12,7 @@
  */
 
 const DAY_NAMES = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+const DAY_CHIP_LABELS = { MON: "MO", TUE: "TU", WED: "WE", THU: "TH", FRI: "FR", SAT: "SA", SUN: "SU" };
 
 let airports = new Map();
 let flights = [];
@@ -378,7 +379,7 @@ function renderDaysBar(leg) {
         const isActual = day === leg.actualDay;
         const isRequested = day === leg.requestedDay;
         const classes = ["day-chip", isActive ? "day-active" : "day-inactive", isActual ? "day-actual" : "", isRequested ? "day-requested" : ""].join(" ");
-        return `<span class="${classes}">${day}</span>`;
+        return `<span class="${classes}">${DAY_CHIP_LABELS[day] || day}</span>`;
       }).join("")}
     </div>
   `;
@@ -406,7 +407,7 @@ function renderFlightNode(leg) {
         ${f.origin} → ${f.destination}${destinationName ? ` <span class="destination-name-inline">${destinationName}</span>` : ""}
       </div>
       <div class="node-flight">${f.airline} ${f.flight_no}</div>
-      <div class="node-time">${formatDateTime(leg.departure)} → ${formatDateTime(leg.arrival)}</div>
+      <div class="node-time"><span>${formatDateTime(leg.departure)} →</span><span>${formatDateTime(leg.arrival)}</span></div>
       ${renderDaysBar(leg)}
       <div class="node-availability">${availabilityLabel(leg)}</div>
       <div class="node-status">${shortStatusLabel(f)}</div>

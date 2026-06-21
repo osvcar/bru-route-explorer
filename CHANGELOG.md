@@ -1,3 +1,8 @@
+## v0.7.6
+- Keeps weekday names before date/time in 3-letter English format.
+- Restores weekday chips to 2-letter format: MO, TU, WE, TH, FR, SA, SU.
+- Forces flight arrival time onto a new line after the arrow for better card readability.
+
 # Changelog
 
 ## v0.7.5
