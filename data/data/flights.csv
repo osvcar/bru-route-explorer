@@ -1,0 +1,31 @@
+id,origin,destination,airline,flight_no,days,dep,arr,arr_day_offset,external_file,old_file,confirmed_far_date,notes
+F001,BRU,IST,TK,TK1938,DAILY,11:10,15:40,0,yes,no,,Test data - validate before operational use
+F002,BRU,IST,TK,TK1940,MON WED FRI SUN,18:10,22:40,0,yes,yes,21/06/2026,Example FAR confirmed record
+F003,BRU,IST,TK,TK1942,TUE THU SAT,22:25,02:55,1,yes,no,,Overnight first leg
+F004,BRU,DOH,QR,QR194,DAILY,15:05,23:30,0,yes,no,,External example
+F005,BRU,DXB,EK,EK184,DAILY,15:20,23:55,0,yes,no,,External example
+F006,BRU,AUH,EY,EY58,MON WED FRI SUN,10:50,19:25,0,yes,no,,External example
+F007,BRU,LHR,BA,BA393,DAILY,11:15,11:35,0,yes,no,,Non-Schengen but transit rules may apply
+F008,BRU,LIS,SN,SN3815,DAILY,09:30,11:20,0,yes,yes,,Schengen example - must be excluded
+F009,BRU,FRA,LH,LH1005,DAILY,08:30,09:40,0,yes,yes,,Schengen example - must be excluded
+F010,IST,GRU,TK,TK193,DAILY,09:55,17:45,0,yes,no,,External example
+F011,IST,GRU,TK,TK15,MON WED FRI SUN,20:15,03:30,1,yes,no,,Overnight arrival
+F012,IST,BGW,TK,TK802,MON WED FRI,10:20,13:00,0,yes,yes,20/06/2026,Example Iraq route
+F013,IST,EBL,TK,TK316,TUE THU SAT,07:30,10:00,0,yes,no,,External example
+F014,DOH,GRU,QR,QR779,DAILY,01:20,10:25,0,yes,no,,External example
+F015,DOH,BGW,QR,QR442,TUE THU SUN,08:35,11:15,0,yes,no,,External example
+F016,DXB,GRU,EK,EK261,DAILY,09:05,17:35,0,yes,no,,External example
+F017,DXB,BGW,EK,EK941,MON WED FRI SUN,08:05,09:45,0,yes,no,,External example
+F018,AUH,GRU,EY,EY191,TUE THU SAT,02:10,10:45,0,yes,no,,External example
+F019,LHR,GRU,BA,BA247,DAILY,22:20,06:00,1,yes,no,,External example
+F020,GRU,CNF,G3,G31320,DAILY,08:15,09:35,0,yes,no,,Domestic Brazil example
+F021,GRU,CNF,LA,LA3552,MON TUE WED THU FRI,12:05,13:20,0,yes,no,,Domestic Brazil example
+F022,GRU,GIG,G3,G31064,DAILY,09:25,10:30,0,yes,no,,Domestic Brazil example
+F023,GRU,RAO,LA,LA7812,MON WED FRI,14:30,15:45,0,yes,no,,Regional leg example
+F024,GRU,BSB,G3,G31468,DAILY,16:00,17:45,0,yes,no,,Domestic Brazil example
+F025,GIG,CNF,AD,AD4505,TUE THU SAT,13:20,14:40,0,yes,no,,Domestic Brazil example
+F026,CNF,RAO,AD,AD4210,MON WED FRI,17:30,18:55,0,yes,no,,Regional leg example
+F027,CMN,GRU,AT,AT215,WED FRI SUN,16:25,22:35,0,yes,no,,External example
+F028,BRU,CMN,AT,AT833,MON WED FRI SUN,17:35,20:05,0,yes,no,,External example
+F029,BRU,MAD,IB,IB3203,DAILY,12:05,14:30,0,yes,yes,,Schengen example - must be excluded
+F030,MAD,GRU,IB,IB271,DAILY,22:40,05:20,1,yes,yes,,Should not appear because MAD is Schengen
