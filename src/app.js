@@ -399,7 +399,7 @@ function renderFlightNode(leg) {
   return `
     <div class="flight-node ${availabilityClass}">
       <div class="node-title">
-        ${f.origin} → ${f.destination}${destinationName ? ` <span class="destination-name">${destinationName}</span>` : ""}
+        ${f.origin} → ${f.destination}${destinationName ? ` <span class="destination-name-inline">${destinationName}</span>` : ""}
       </div>
       <div class="node-flight">${f.airline} ${f.flight_no}</div>
       <div class="node-time">${formatDateTime(leg.departure)} → ${formatDateTime(leg.arrival)}</div>

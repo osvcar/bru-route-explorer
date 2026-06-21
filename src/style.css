@@ -357,3 +357,12 @@ footer { text-align: center; padding: 1rem; color: var(--muted); }
   text-transform: uppercase;
   letter-spacing: .03em;
 }
+
+
+.destination-name-inline {
+  color: var(--muted);
+  font-size: .66rem;
+  font-weight: 500;
+  margin-left: .35rem;
+  vertical-align: middle;
+}

@@ -1,5 +1,5 @@
 id,origin,destination,airline,flight_no,days,dep,arr,arr_day_offset,external_file,old_file,confirmed_far_date,notes
-F001,BRU,IST,TK,TK1938,DAILY,11:10,15:40,0,yes,no,21/06/2026,FAR confirmed
+F001,BRU,IST,TK,TK1938,DAILY,11:10,15:40,0,yes,no,,Test data - validate before operational use
 F002,BRU,IST,TK,TK1940,MON WED FRI SUN,18:10,22:40,0,yes,yes,21/06/2026,Example FAR confirmed record
 F003,BRU,IST,TK,TK1942,TUE THU SAT,22:25,02:55,1,yes,no,,Overnight first leg
 F004,BRU,DOH,QR,QR194,DAILY,15:05,23:30,0,yes,no,,External example
