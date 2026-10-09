@@ -40,3 +40,7 @@ This is not a booking system. FAR remains the operational source for final booki
 `data/airports.csv` contains a broad operational starter list. For a full global IATA airport list, use `tools/build_airports_from_ourairports.py` with the public OurAirports CSV dumps and replace `data/airports.csv`.
 
 Only airports with an IATA code are useful for this prototype. Schengen countries are marked in the `schengen` column so the route engine can exclude them after BRU.
+
+
+### Airport catalogue vs. flight routes
+All non-Schengen airports from `data/airports.csv` appear in the destination selector, even when no flights are recorded. A destination can only return a route if `data/flights.csv` contains a usable connection. CSV requests bypass the browser cache.

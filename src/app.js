@@ -64,7 +64,8 @@ function parseCSV(text) {
 }
 
 async function loadCSV(path) {
-  const response = await fetch(path);
+  // Force a fresh CSV on each page load (GitHub Pages/browser caches).
+  const response = await fetch(`${path}?v=${Date.now()}`, { cache: "no-store" });
   if (!response.ok) throw new Error(`Could not load ${path}`);
   return parseCSV(await response.text());
 }
@@ -478,8 +479,13 @@ function renderResults(routes, longWait) {
   const tree = document.getElementById("tree");
   const summary = document.getElementById("summary");
   if (routes.length === 0) {
-    summary.innerHTML = `<strong>0 routes found.</strong> Try another date, destination, or maximum number of legs.`;
-    tree.innerHTML = `<div class="empty">No valid non-Schengen route found with current parameters.</div>`;
+    const destination = document.getElementById("destinationAirport").value;
+    const name = airportDisplayName(destination);
+    const hasInbound = flights.some(f => f.destination === destination);
+    summary.innerHTML = `<strong>0 routes found for ${destination}${name ? ` — ${name}` : ""}.</strong>`;
+    tree.innerHTML = hasInbound
+      ? `<div class="empty">This airport is in the catalogue and has flights in the database, but no valid route was found with the selected date, connections and Schengen restrictions. Try another date, more legs or “Show other-day flights”.</div>`
+      : `<div class="empty">This airport is in airports.csv, but there are currently no flights arriving at ${destination} in flights.csv. Adding an airport does not create flight connections. FAR observations for this destination must be added to flights.csv.</div>`;
     return;
   }
 
