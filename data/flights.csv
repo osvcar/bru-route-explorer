@@ -137,14 +137,122 @@ F135,GRU,REC,LA,LA634,DAILY,07:00,08:30,0,yes,no,,Brazil domestic
 F136,GRU,REC,G3,G3735,DAILY,14:00,15:30,0,yes,no,,Brazil domestic
 F137,GRU,FOR,LA,LA636,DAILY,07:00,08:30,0,yes,no,,Brazil domestic
 F138,GRU,FOR,G3,G3737,DAILY,14:00,15:30,0,yes,no,,Brazil domestic
-F139,GRU,FOR,G3,G3738,DAILY,18:00,20:30,0,yes,no,23/06/2026,Brazil domestic
-F140,BRU,CMN,AT,AT845,FRI,07:40,09:00,0,yes,no,2026-10-09,FAR departure 2026-10-16
-F141,CMN,NBJ,AT,AT291,FRI,20:55,05:15,1,yes,no,2026-10-09,FAR departure 2026-10-16
-F142,BRU,DXB,EK,EK184,FRI,15:20,00:35,1,yes,no,2026-10-09,FAR departure 2026-10-16
-F143,DXB,NBJ,EK,EK793,SAT,09:45,14:30,0,yes,no,2026-10-09,FAR departure 2026-10-17
-F144,BRU,DOH,QR,QR194,FRI,16:10,00:05,1,yes,no,2026-10-09,FAR departure 2026-10-16
-F145,DOH,NBJ,QR,QR1491,SAT,02:20,10:35,0,yes,no,2026-10-09,FAR departure 2026-10-17
-F146,BRU,CMN,AT,AT833,FRI,18:35,19:55,0,yes,no,2026-10-09,FAR departure 2026-10-16
-F147,BRU,ADD,ET,ET751,FRI,21:25,05:35,1,yes,no,2026-10-09,FAR departure 2026-10-16
-F148,ADD,NBJ,ET,ET851,SAT,09:40,12:25,0,yes,no,2026-10-09,FAR departure 2026-10-17
-F149,BRU,DXB,EK,EK182,FRI,21:40,06:55,1,yes,no,2026-10-09,FAR departure 2026-10-16
+FAR001,BRU,IST,TK,1940,WED,18:50,23:20,0,yes,no,2026-07-15,FAR confirmed 2026-07-15 (WED) - from screenshots
+FAR002,IST,PTY,TK,801,THU,09:40,18:30,0,yes,no,2026-07-16,FAR confirmed 2026-07-16 (THU) - from screenshots
+FAR003,PTY,PBM,CM,318,FRI,10:25,16:37,0,yes,no,2026-07-17,FAR confirmed 2026-07-17 (FRI) - from screenshots
+FAR004,BRU,IST,TK,1940,THU,18:50,23:20,0,yes,no,2026-06-04,FAR confirmed 2026-06-04 (THU) - from screenshots
+FAR005,IST,PTY,TK,800,FRI,09:40,18:25,0,yes,no,2026-06-05,FAR confirmed 2026-06-05 (FRI) - from screenshots
+FAR006,PTY,LIM,TK,9652,FRI,21:45,01:20,1,yes,no,2026-06-05,FAR confirmed 2026-06-05 (FRI) - from screenshots
+FAR007,IST,GRU,TK,15,FRI,09:55,17:45,0,yes,no,2026-06-05,FAR confirmed 2026-06-05 (FRI) - from screenshots
+FAR008,GRU,CNF,TK,9133,FRI,22:40,23:50,0,yes,no,2026-06-05,FAR confirmed 2026-06-05 (FRI) - from screenshots
+FAR009,BRU,IST,TK,1942,WED,07:20,11:45,0,yes,no,2026-06-03,FAR confirmed 2026-06-03 (WED) - from screenshots
+FAR010,IST,GRU,TK,215,WED,19:40,03:30,1,yes,no,2026-06-03,FAR confirmed 2026-06-03 (WED) - from screenshots
+FAR011,GRU,GYN,TK,8658,THU,08:35,10:15,0,yes,no,2026-06-04,FAR confirmed 2026-06-04 (THU) - from screenshots
+FAR012,BRU,ADD,ET,739,TUE,18:50,05:05,1,yes,no,2026-06-16,FAR confirmed 2026-06-16 (TUE) - from screenshots
+FAR013,ADD,BJM,ET,811,WED,11:30,13:15,0,yes,no,2026-06-17,FAR confirmed 2026-06-17 (WED) - from screenshots
+FAR014,ADD,FIH,ET,841,WED,10:00,12:10,0,yes,no,2026-06-17,FAR confirmed 2026-06-17 (WED) - from screenshots
+FAR015,BRU,IST,TK,1938,WED,11:10,15:40,0,yes,no,2026-06-03,FAR confirmed 2026-06-03 (WED) - from screenshots
+FAR016,IST,UBN,TK,236,WED,18:25,07:20,1,yes,no,2026-06-03,FAR confirmed 2026-06-03 (WED) - from screenshots
+FAR017,IST,PTY,TK,903,WED,14:45,20:25,0,yes,no,2026-06-03,FAR confirmed 2026-06-03 (WED) - from screenshots
+FAR018,PTY,CLO,TK,9614,WED,22:10,23:51,0,yes,no,2026-06-03,FAR confirmed 2026-06-03 (WED) - from screenshots
+FAR019,IST,BOG,TK,800,FRI,09:40,15:05,0,yes,no,2026-06-05,FAR confirmed 2026-06-05 (FRI) - from screenshots
+FAR020,BRU,IST,TK,1942,FRI,07:20,11:45,0,yes,no,2026-06-05,FAR confirmed 2026-06-05 (FRI) - from screenshots
+FAR021,IST,UBN,TK,236,FRI,18:25,07:20,1,yes,no,2026-06-05,FAR confirmed 2026-06-05 (FRI) - from screenshots
+FAR022,BRU,IST,TK,1942,WED,07:20,11:45,0,yes,no,2026-06-10,FAR confirmed 2026-06-10 (WED) - from screenshots
+FAR023,IST,GRU,TK,215,WED,19:40,03:30,1,yes,no,2026-06-10,FAR confirmed 2026-06-10 (WED) - from screenshots
+FAR024,GRU,GYN,TK,8658,THU,07:30,09:10,0,yes,no,2026-06-11,FAR confirmed 2026-06-11 (THU) - from screenshots
+FAR025,BRU,ACC,SN,277,MON,11:50,16:40,0,yes,no,2026-06-29,FAR confirmed 2026-06-29 (MON) - from screenshots
+FAR026,BRU,IST,TK,1938,THU,11:10,15:40,0,yes,no,2026-06-18,FAR confirmed 2026-06-18 (THU) - from screenshots
+FAR027,IST,GRU,TK,215,THU,20:15,03:30,1,yes,no,2026-06-18,FAR confirmed 2026-06-18 (THU) - from screenshots
+FAR028,GRU,VIX,TK,8650,FRI,07:20,08:45,0,yes,no,2026-06-19,FAR confirmed 2026-06-19 (FRI) - from screenshots
+FAR029,BRU,IST,TK,1944,FRI,14:25,18:55,0,yes,no,2026-06-19,FAR confirmed 2026-06-19 (FRI) - from screenshots
+FAR030,IST,BGW,TK,802,SAT,01:25,04:20,0,yes,no,2026-06-20,FAR confirmed 2026-06-20 (SAT) - from screenshots
+FAR031,BRU,BEG,JU,273,WED,21:15,23:25,0,yes,no,2026-06-17,FAR confirmed 2026-06-17 (WED) - from screenshots
+FAR032,GRU,CNF,TK,8654,THU,08:20,09:30,0,yes,no,2026-06-11,FAR confirmed 2026-06-11 (THU) - from screenshots
+FAR033,BRU,FNA,SN,241,FRI,12:35,17:25,0,yes,no,2026-06-12,FAR confirmed 2026-06-12 (FRI) - from screenshots
+FAR034,BRU,FNA,SN,397,THU,12:35,17:15,0,yes,no,2026-06-11,FAR confirmed 2026-06-11 (THU) - from screenshots
+FAR035,IST,TBS,TK,384,FRI,16:55,20:15,0,yes,no,2026-06-05,FAR confirmed 2026-06-05 (FRI) - from screenshots
+FAR036,GRU,UDI,TK,8662,THU,08:05,09:20,0,yes,no,2026-06-11,FAR confirmed 2026-06-11 (THU) - from screenshots
+FAR037,BRU,IST,TK,1946,FRI,16:15,20:45,0,yes,no,2026-06-26,FAR confirmed 2026-06-26 (FRI) - from screenshots
+FAR038,IST,ALP,TK,844,SAT,07:40,09:45,0,yes,no,2026-06-27,FAR confirmed 2026-06-27 (SAT) - from screenshots
+FAR039,BRU,IST,TK,1944,FRI,14:25,18:55,0,yes,no,2026-06-26,FAR confirmed 2026-06-26 (FRI) - from screenshots
+FAR040,IST,TBS,TK,386,FRI,22:15,01:35,1,yes,no,2026-06-26,FAR confirmed 2026-06-26 (FRI) - from screenshots
+FAR041,BRU,IST,TK,1938,FRI,11:10,15:40,0,yes,no,2026-06-26,FAR confirmed 2026-06-26 (FRI) - from screenshots
+FAR042,IST,KYA,TK,2038,FRI,19:00,20:20,0,yes,no,2026-06-26,FAR confirmed 2026-06-26 (FRI) - from screenshots
+FAR043,GRU,BEL,TK,9037,SAT,07:05,10:45,0,yes,no,2026-06-27,FAR confirmed 2026-06-27 (SAT) - from screenshots
+FAR044,IST,EZS,TK,2646,WED,20:50,22:40,0,yes,no,2026-07-01,FAR confirmed 2026-07-01 (WED) - from screenshots
+FAR045,IST,EBL,TK,804,WED,02:10,04:45,0,yes,no,2026-06-24,FAR confirmed 2026-06-24 (WED) - from screenshots
+FAR046,BRU,ADD,ET,751,THU,21:25,05:35,1,yes,no,2026-07-02,FAR confirmed 2026-07-02 (THU) - from screenshots
+FAR047,ADD,GRU,ET,506,FRI,09:40,16:20,0,yes,no,2026-07-03,FAR confirmed 2026-07-03 (FRI) - from screenshots
+FAR048,GRU,GYN,G3,1494,FRI,22:50,00:30,1,yes,no,2026-07-03,FAR confirmed 2026-07-03 (FRI) - from screenshots
+FAR049,BRU,IST,TK,1940,TUE,18:55,23:20,0,yes,no,2026-06-23,FAR confirmed 2026-06-23 (TUE) - from screenshots
+FAR050,GRU,BSB,TK,9029,SAT,07:25,09:10,0,yes,no,2026-06-27,FAR confirmed 2026-06-27 (SAT) - from screenshots
+FAR051,BRU,IST,TK,1940,MON,18:55,23:20,0,yes,no,2026-06-29,FAR confirmed 2026-06-29 (MON) - from screenshots
+FAR052,IST,GRU,TK,215,MON,20:15,03:30,1,yes,no,2026-06-29,FAR confirmed 2026-06-29 (MON) - from screenshots
+FAR053,GRU,GYN,G3,1940,TUE,08:40,10:20,0,yes,no,2026-06-30,FAR confirmed 2026-06-30 (TUE) - from screenshots
+FAR054,BRU,IST,TK,1942,MON,07:20,11:45,0,yes,no,2026-06-29,FAR confirmed 2026-06-29 (MON) - from screenshots
+FAR055,BRU,IST,TK,1940,FRI,18:50,23:20,0,yes,no,2026-07-03,FAR confirmed 2026-07-03 (FRI) - from screenshots
+FAR056,IST,GRU,TK,15,SAT,10:25,17:45,0,yes,no,2026-07-04,FAR confirmed 2026-07-04 (SAT) - from screenshots
+FAR057,BRU,IST,TK,1944,FRI,14:25,18:55,0,yes,no,2026-07-03,FAR confirmed 2026-07-03 (FRI) - from screenshots
+FAR058,IST,GRU,TK,215,FRI,20:15,03:30,1,yes,no,2026-07-03,FAR confirmed 2026-07-03 (FRI) - from screenshots
+FAR059,GRU,BOG,AV,86,SAT,07:35,11:25,0,yes,no,2026-07-04,FAR confirmed 2026-07-04 (SAT) - from screenshots
+FAR060,BOG,SAL,AV,382,SAT,13:40,11:25,0,yes,no,2026-07-04,FAR confirmed 2026-07-04 (SAT) - from screenshots
+FAR061,BRU,LFW,SN,277,MON,11:50,18:25,0,yes,no,2026-06-29,FAR confirmed 2026-06-29 (MON) - from screenshots
+FAR062,BRU,IST,TK,1938,WED,11:20,15:40,0,yes,no,2026-07-01,FAR confirmed 2026-07-01 (WED) - from screenshots
+FAR063,IST,UBN,TK,236,WED,18:25,07:20,1,yes,no,2026-07-01,FAR confirmed 2026-07-01 (WED) - from screenshots
+FAR064,BRU,DOH,QR,194,MON,16:10,23:20,0,yes,no,2026-06-29,FAR confirmed 2026-06-29 (MON) - from screenshots
+FAR065,DOH,GRU,QR,779,TUE,01:30,10:35,0,yes,no,2026-06-30,FAR confirmed 2026-06-30 (TUE) - from screenshots
+FAR066,GRU,LIM,QR,5137,TUE,21:30,00:45,1,yes,no,2026-06-30,FAR confirmed 2026-06-30 (TUE) - from screenshots
+FAR067,DOH,GRU,QR,773,TUE,08:00,17:05,0,yes,no,2026-06-30,FAR confirmed 2026-06-30 (TUE) - from screenshots
+FAR068,DOH,GRU,QR,785,TUE,00:05,09:00,0,yes,no,2026-06-30,FAR confirmed 2026-06-30 (TUE) - from screenshots
+FAR069,BRU,HER,SN,3255,FRI,05:55,10:20,0,yes,no,2026-06-26,FAR confirmed 2026-06-26 (FRI) - from screenshots
+FAR070,BRU,FRA,LH,5587,FRI,06:20,07:30,0,yes,no,2026-06-26,FAR confirmed 2026-06-26 (FRI) - from screenshots
+FAR071,BRU,WAW,LO,232,FRI,07:50,09:50,0,yes,no,2026-06-26,FAR confirmed 2026-06-26 (FRI) - from screenshots
+FAR0210,BRU,DOH,QR,194,WED,16:10,00:05,1,yes,no,2026-10-14,FAR screenshot; departure 2026-10-14; arrival 2026-10-15
+FAR0211,DOH,GRU,QR,779,THU,01:40,10:35,0,yes,no,2026-10-15,FAR screenshot; departure 2026-10-15; arrival 2026-10-15
+FAR0212,DOH,GRU,QR,773,THU,08:10,17:15,0,yes,no,2026-10-15,FAR screenshot; departure 2026-10-15; arrival 2026-10-15
+FAR0213,BRU,DOH,QR,196,THU,09:00,16:50,0,yes,no,2026-10-15,FAR screenshot; departure 2026-10-15; arrival 2026-10-15
+FAR0214,DOH,GRU,QR,779,FRI,01:40,10:35,0,yes,no,2026-10-16,FAR screenshot; departure 2026-10-16; arrival 2026-10-16
+FAR0215,GRU,PMW,QR,7282,FRI,23:35,02:00,1,yes,no,2026-10-16,FAR screenshot; departure 2026-10-16; arrival 2026-10-17
+FAR0216,GRU,PMW,QR,8432,SAT,07:55,10:20,0,yes,no,2026-10-17,FAR screenshot; departure 2026-10-17; arrival 2026-10-17
+FAR0217,BRU,IST,TK,1942,TUE,07:20,11:45,0,yes,no,2026-10-20,FAR screenshot; departure 2026-10-20; arrival 2026-10-20
+FAR0218,IST,GRU,TK,215,TUE,20:15,03:30,1,yes,no,2026-10-20,FAR screenshot; departure 2026-10-20; arrival 2026-10-21
+FAR0219,GRU,UDI,TK,8662,WED,08:05,09:20,0,yes,no,2026-10-21,FAR screenshot; departure 2026-10-21; arrival 2026-10-21
+FAR0220,GRU,UDI,TK,9135,WED,22:25,23:40,0,yes,no,2026-10-21,FAR screenshot; departure 2026-10-21; arrival 2026-10-21
+FAR0221,BRU,IST,TK,1938,TUE,11:35,17:05,0,yes,no,2026-10-27,FAR screenshot; departure 2026-10-27; arrival 2026-10-27
+FAR0222,IST,GRU,TK,215,TUE,20:35,04:20,1,yes,no,2026-10-27,FAR screenshot; departure 2026-10-27; arrival 2026-10-28
+FAR0223,GRU,GYN,TK,8658,WED,08:10,09:55,0,yes,no,2026-10-28,FAR screenshot; departure 2026-10-28; arrival 2026-10-28
+FAR0224,GRU,GYN,TK,9489,WED,09:15,10:55,0,yes,no,2026-10-28,FAR screenshot; departure 2026-10-28; arrival 2026-10-28
+FAR0225,GRU,GYN,TK,9129,WED,23:20,01:00,1,yes,no,2026-10-28,FAR screenshot; departure 2026-10-28; arrival 2026-10-29
+FAR0226,BRU,DXB,EK,182,WED,20:20,06:00,1,yes,no,2026-10-28,FAR screenshot; departure 2026-10-28; arrival 2026-10-29
+FAR0227,DXB,MEX,EK,255,FRI,03:30,16:00,0,yes,no,2026-10-30,FAR screenshot; departure 2026-10-30; arrival 2026-10-30
+FAR0228,BRU,DXB,EK,184,WED,14:50,00:50,1,yes,no,2026-10-28,FAR screenshot; departure 2026-10-28; arrival 2026-10-29
+FAR0229,DXB,MEX,EK,255,THU,03:30,16:00,0,yes,no,2026-10-29,FAR screenshot; departure 2026-10-29; arrival 2026-10-29
+FAR0230,BRU,IST,TK,1940,WED,18:15,23:40,0,yes,no,2026-10-28,FAR screenshot; departure 2026-10-28; arrival 2026-10-28
+FAR0231,IST,MEX,TK,181,THU,01:55,07:35,0,yes,no,2026-10-29,FAR screenshot; departure 2026-10-29; arrival 2026-10-29
+FAR0232,BRU,IST,TK,1942,WED,06:35,12:00,0,yes,no,2026-10-28,FAR screenshot; departure 2026-10-28; arrival 2026-10-28
+FAR0233,BRU,IST,TK,1938,TUE,11:20,15:40,0,yes,no,2026-10-20,FAR screenshot; departure 2026-10-20; arrival 2026-10-20
+FAR0234,IST,RMO,TK,271,TUE,18:50,20:20,0,yes,no,2026-10-20,FAR screenshot; departure 2026-10-20; arrival 2026-10-20
+FAR0235,IST,RMO,TK,275,WED,01:15,02:45,0,yes,no,2026-10-21,FAR screenshot; departure 2026-10-21; arrival 2026-10-21
+FAR0236,IST,RMO,TK,269,WED,07:45,09:15,0,yes,no,2026-10-21,FAR screenshot; departure 2026-10-21; arrival 2026-10-21
+FAR0237,IST,RMO,TK,273,WED,13:45,15:10,0,yes,no,2026-10-21,FAR screenshot; departure 2026-10-21; arrival 2026-10-21
+FAR0238,IST,RMO,TK,273,MON,13:45,15:10,0,yes,no,2026-10-19,FAR screenshot; departure 2026-10-19; arrival 2026-10-19
+FAR0239,IST,RMO,TK,271,MON,18:50,20:20,0,yes,no,2026-10-19,FAR screenshot; departure 2026-10-19; arrival 2026-10-19
+FAR0240,IST,RMO,TK,275,TUE,01:15,02:45,0,yes,no,2026-10-20,FAR screenshot; departure 2026-10-20; arrival 2026-10-20
+FAR0241,IST,RMO,TK,269,TUE,07:45,09:15,0,yes,no,2026-10-20,FAR screenshot; departure 2026-10-20; arrival 2026-10-20
+FAR0242,BRU,IST,TK,1942,THU,07:20,11:45,0,yes,no,2026-10-15,FAR screenshot; departure 2026-10-15; arrival 2026-10-15
+FAR0243,IST,UBN,TK,8087,THU,13:20,02:40,1,yes,no,2026-10-15,FAR screenshot; departure 2026-10-15; arrival 2026-10-16
+FAR0244,BRU,IST,TK,1944,WED,14:30,18:55,0,yes,no,2026-10-14,FAR screenshot; departure 2026-10-14; arrival 2026-10-14
+FAR0245,BRU,PRN,TB,2941,WED,06:25,09:25,0,yes,no,2026-10-14,FAR screenshot; departure 2026-10-14; arrival 2026-10-14
+FAR0246,BRU,PRN,TB,2941,FRI,15:25,18:25,0,yes,no,2026-10-16,FAR screenshot; departure 2026-10-16; arrival 2026-10-16
+FAR0247,BRU,IST,TK,1940,TUE,18:55,23:15,0,yes,no,2026-09-08,FAR screenshot; departure 2026-09-08; arrival 2026-09-08
+FAR0248,IST,EZE,TK,15,WED,10:35,22:25,0,yes,no,2026-09-09,FAR screenshot; departure 2026-09-09; arrival 2026-09-09
+FAR0249,BRU,IST,TK,1938,FRI,11:35,16:05,0,yes,no,2026-09-11,FAR screenshot; departure 2026-09-11; arrival 2026-09-11
+FAR0250,IST,GRU,TK,215,FRI,20:25,03:30,1,yes,no,2026-09-11,FAR screenshot; departure 2026-09-11; arrival 2026-09-12
+FAR0251,GRU,CNF,TK,9175,SAT,06:00,07:10,0,yes,no,2026-09-12,FAR screenshot; departure 2026-09-12; arrival 2026-09-12
+FAR0252,BRU,IST,TK,1944,WED,14:50,19:20,0,yes,no,2026-09-09,FAR screenshot; departure 2026-09-09; arrival 2026-09-09
+FAR0253,IST,TBS,TK,386,WED,22:15,01:35,1,yes,no,2026-09-09,FAR screenshot; departure 2026-09-09; arrival 2026-09-10
+FAR0254,BRU,IST,TK,1944,THU,14:25,18:55,0,yes,no,2026-08-20,FAR screenshot; departure 2026-08-20; arrival 2026-08-20
+FAR0255,IST,EBL,TK,316,THU,21:15,23:45,0,yes,no,2026-08-20,FAR screenshot; departure 2026-08-20; arrival 2026-08-20
+FAR0256,IST,EBL,TK,804,FRI,02:10,04:45,0,yes,no,2026-08-21,FAR screenshot; departure 2026-08-21; arrival 2026-08-21
+FAR0257,IST,EBL,TK,314,FRI,06:30,09:00,0,yes,no,2026-08-21,FAR screenshot; departure 2026-08-21; arrival 2026-08-21
