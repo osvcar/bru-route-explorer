@@ -1,341 +1,393 @@
 code,name,country,schengen
-BRU,Brussels Airport,Belgium,yes
-ANR,Antwerp International Airport,Belgium,yes
-CRL,Brussels South Charleroi,Belgium,yes
-LIS,Lisbon Airport,Portugal,yes
-OPO,Porto Airport,Portugal,yes
-FAO,Faro Airport,Portugal,yes
-FNC,Madeira Airport,Portugal,yes
-PDL,Ponta Delgada Airport,Portugal,yes
-MAD,Madrid Barajas,Spain,yes
-BCN,Barcelona El Prat,Spain,yes
-AGP,Malaga Airport,Spain,yes
-VLC,Valencia Airport,Spain,yes
-SVQ,Seville Airport,Spain,yes
-PMI,Palma de Mallorca Airport,Spain,yes
-LPA,Gran Canaria Airport,Spain,yes
-TFS,Tenerife South Airport,Spain,yes
-FRA,Frankfurt Airport,Germany,yes
-MUC,Munich Airport,Germany,yes
-DUS,Dusseldorf Airport,Germany,yes
-BER,Berlin Brandenburg Airport,Germany,yes
-HAM,Hamburg Airport,Germany,yes
-CGN,Cologne Bonn Airport,Germany,yes
-CDG,Paris Charles de Gaulle,France,yes
-ORY,Paris Orly,France,yes
-LYS,Lyon Saint Exupery,France,yes
-MRS,Marseille Provence,France,yes
-NCE,Nice Cote d Azur,France,yes
-AMS,Amsterdam Schiphol,Netherlands,yes
-EIN,Eindhoven Airport,Netherlands,yes
-FCO,Rome Fiumicino,Italy,yes
-MXP,Milan Malpensa,Italy,yes
-LIN,Milan Linate,Italy,yes
-VCE,Venice Marco Polo,Italy,yes
-NAP,Naples Airport,Italy,yes
-BLQ,Bologna Airport,Italy,yes
-VIE,Vienna International,Austria,yes
-ZRH,Zurich Airport,Switzerland,yes
-GVA,Geneva Airport,Switzerland,yes
-CPH,Copenhagen Airport,Denmark,yes
-ARN,Stockholm Arlanda,Sweden,yes
-OSL,Oslo Gardermoen,Norway,yes
-HEL,Helsinki Vantaa,Finland,yes
-WAW,Warsaw Chopin,Poland,yes
-KRK,Krakow Airport,Poland,yes
-PRG,Prague Airport,Czech Republic,yes
-BUD,Budapest Airport,Hungary,yes
-ATH,Athens Airport,Greece,yes
-SOF,Sofia Airport,Bulgaria,yes
-OTP,Bucharest Henri Coanda,Romania,yes
-ZAG,Zagreb Airport,Croatia,yes
-LJU,Ljubljana Airport,Slovenia,yes
-RIX,Riga Airport,Latvia,yes
-VNO,Vilnius Airport,Lithuania,yes
-TLL,Tallinn Airport,Estonia,yes
-MLA,Malta Airport,Malta,yes
-LHR,London Heathrow,United Kingdom,no
-LGW,London Gatwick,United Kingdom,no
-STN,London Stansted,United Kingdom,no
-LTN,London Luton,United Kingdom,no
-MAN,Manchester Airport,United Kingdom,no
-BHX,Birmingham Airport,United Kingdom,no
-EDI,Edinburgh Airport,United Kingdom,no
-GLA,Glasgow Airport,United Kingdom,no
-DUB,Dublin Airport,Ireland,no
-SNN,Shannon Airport,Ireland,no
-IST,Istanbul Airport,Turkey,no
-SAW,Istanbul Sabiha Gokcen,Turkey,no
-ESB,Ankara Esenboga,Turkey,no
-ADB,Izmir Adnan Menderes,Turkey,no
-AYT,Antalya Airport,Turkey,no
-TBS,Tbilisi Airport,Georgia,no
-KUT,Kutaisi Airport,Georgia,no
-EVN,Yerevan Airport,Armenia,no
-GYD,Baku Heydar Aliyev,Azerbaijan,no
-BEG,Belgrade Nikola Tesla,Serbia,no
-INI,Nis Airport,Serbia,no
-TIA,Tirana Airport,Albania,no
-PRN,Pristina Airport,Kosovo,no
-SKP,Skopje Airport,North Macedonia,no
-TGD,Podgorica Airport,Montenegro,no
-SJJ,Sarajevo Airport,Bosnia and Herzegovina,no
-DOH,Doha Hamad International,Qatar,no
-DXB,Dubai International,United Arab Emirates,no
-DWC,Dubai Al Maktoum,United Arab Emirates,no
-AUH,Abu Dhabi International,United Arab Emirates,no
-SHJ,Sharjah International,United Arab Emirates,no
-AMM,Amman Queen Alia,Jordan,no
-AQJ,Aqaba King Hussein,Jordan,no
-BEY,Beirut Rafic Hariri,Lebanon,no
-TLV,Tel Aviv Ben Gurion,Israel,no
-RUH,Riyadh King Khalid,Saudi Arabia,no
-JED,Jeddah King Abdulaziz,Saudi Arabia,no
-DMM,Dammam King Fahd,Saudi Arabia,no
-MED,Madinah Airport,Saudi Arabia,no
-KWI,Kuwait International,Kuwait,no
-BAH,Bahrain International,Bahrain,no
-MCT,Muscat International,Oman,no
-SLL,Salalah Airport,Oman,no
-IKA,Tehran Imam Khomeini,Iran,no
-THR,Tehran Mehrabad,Iran,no
-MHD,Mashhad Airport,Iran,no
-SYZ,Shiraz Airport,Iran,no
-ISU,Sulaymaniyah International,Iraq,no
-BGW,Baghdad International,Iraq,no
-EBL,Erbil International,Iraq,no
-BSR,Basra International,Iraq,no
-NJF,Najaf International,Iraq,no
-CMN,Casablanca Mohammed V,Morocco,no
-RAK,Marrakesh Menara,Morocco,no
-RBA,Rabat Sale,Morocco,no
-AGA,Agadir Al Massira,Morocco,no
-TNG,Tangier Ibn Battouta,Morocco,no
-FEZ,Fes Saiss,Morocco,no
-CAI,Cairo International,Egypt,no
-HRG,Hurghada International,Egypt,no
-SSH,Sharm El Sheikh International,Egypt,no
-LXR,Luxor International,Egypt,no
-ALG,Algiers Houari Boumediene,Algeria,no
-ORN,Oran Ahmed Ben Bella,Algeria,no
-TUN,Tunis Carthage,Tunisia,no
-MIR,Monastir Habib Bourguiba,Tunisia,no
-DJE,Djerba Zarzis,Tunisia,no
-TIP,Tripoli Mitiga,Libya,no
-BEN,Benghazi Benina,Libya,no
-ADD,Addis Ababa Bole,Ethiopia,no
-NBO,Nairobi Jomo Kenyatta,Kenya,no
-MBA,Mombasa Moi,Kenya,no
-KGL,Kigali International,Rwanda,no
-EBB,Entebbe International,Uganda,no
-DAR,Dar es Salaam Julius Nyerere,Tanzania,no
-JRO,Kilimanjaro International,Tanzania,no
-ZNZ,Zanzibar Abeid Amani Karume,Tanzania,no
-KRT,Khartoum International,Sudan,no
-JUB,Juba International,South Sudan,no
-ASM,Asmara International,Eritrea,no
-JIB,Djibouti Ambouli,Djibouti,no
-MGQ,Mogadishu Aden Adde,Somalia,no
-HGA,Hargeisa Egal International,Somalia,no
-LOS,Lagos Murtala Muhammed,Nigeria,no
-ABV,Abuja Nnamdi Azikiwe,Nigeria,no
-PHC,Port Harcourt International,Nigeria,no
-ACC,Accra Kotoka,Ghana,no
 ABJ,Abidjan Felix Houphouet Boigny,Cote d Ivoire,no
-DKR,Dakar Blaise Diagne,Senegal,no
-BJL,Banjul International,Gambia,no
-CKY,Conakry International,Guinea,no
-FNA,Freetown Lungi,Sierra Leone,no
-ROB,Monrovia Roberts,Liberia,no
-BKO,Bamako Modibo Keita,Mali,no
-OUA,Ouagadougou Airport,Burkina Faso,no
-NIM,Niamey Diori Hamani,Niger,no
-NDJ,N Djamena International,Chad,no
-NSI,Yaounde Nsimalen,Cameroon,no
-DLA,Douala International,Cameroon,no
-LBV,Libreville Leon Mba,Gabon,no
-FIH,Kinshasa N Djili,Democratic Republic of the Congo,no
-BZV,Brazzaville Maya Maya,Republic of the Congo,no
-LAD,Luanda Quatro de Fevereiro,Angola,no
-MPM,Maputo International,Mozambique,no
-JNB,Johannesburg OR Tambo,South Africa,no
-CPT,Cape Town International,South Africa,no
-DUR,Durban King Shaka,South Africa,no
-MRU,Mauritius Sir Seewoosagur Ramgoolam,Mauritius,no
-SEZ,Seychelles International,Seychelles,no
-TNR,Antananarivo Ivato,Madagascar,no
-GRU,Sao Paulo Guarulhos,Brazil,no
-CGH,Sao Paulo Congonhas,Brazil,no
-VCP,Campinas Viracopos,Brazil,no
-GIG,Rio de Janeiro Galeao,Brazil,no
-SDU,Rio de Janeiro Santos Dumont,Brazil,no
-CNF,Belo Horizonte Confins,Brazil,no
-RAO,Ribeirao Preto,Brazil,no
-BSB,Brasilia,Brazil,no
-REC,Recife,Brazil,no
-FOR,Fortaleza,Brazil,no
-SSA,Salvador Bahia,Brazil,no
-POA,Porto Alegre,Brazil,no
-CWB,Curitiba Afonso Pena,Brazil,no
-FLN,Florianopolis,Brazil,no
-NVT,Navegantes,Brazil,no
-IGU,Foz do Iguacu,Brazil,no
-MAO,Manaus,Brazil,no
-BEL,Belem Val de Cans,Brazil,no
-NAT,Natal,Brazil,no
-MCZ,Maceio,Brazil,no
-AJU,Aracaju,Brazil,no
-JPA,Joao Pessoa,Brazil,no
-VIX,Vitoria Eurico de Aguiar Salles,Brazil,no
-GYN,Goiania Santa Genoveva,Brazil,no
-CGB,Cuiaba Marechal Rondon,Brazil,no
-CGR,Campo Grande,Brazil,no
-LDB,Londrina,Brazil,no
-MGF,Maringa,Brazil,no
-UDI,Uberlandia,Brazil,no
-IOS,Ilheus Jorge Amado,Brazil,no
-BPS,Porto Seguro,Brazil,no
-THE,Teresina,Brazil,no
-SLZ,Sao Luis,Brazil,no
-PMW,Palmas,Brazil,no
-PVH,Porto Velho,Brazil,no
-RBR,Rio Branco,Brazil,no
-STM,Santarem,Brazil,no
-MAB,Maraba,Brazil,no
-IMP,Imperatriz,Brazil,no
-JDO,Juazeiro do Norte,Brazil,no
-PNZ,Petrolina,Brazil,no
-LBR,Labrea,Brazil,no
-EZE,Buenos Aires Ezeiza,Argentina,no
+ABV,Abuja Nnamdi Azikiwe,Nigeria,no
+ACC,Accra Kotoka,Ghana,no
+ADA,Adana Sakirpasa Airport,Turkey,no
+ADB,Izmir Adnan Menderes,Turkey,no
+ADD,Addis Ababa Bole,Ethiopia,no
+ADF,Adiyaman Airport,Turkey,no
+ADL,Adelaide Airport,Australia,no
 AEP,Buenos Aires Aeroparque,Argentina,no
-COR,Cordoba Airport,Argentina,no
-MDZ,Mendoza Airport,Argentina,no
-SCL,Santiago Arturo Merino Benitez,Chile,no
-LIM,Lima Jorge Chavez,Peru,no
-BOG,Bogota El Dorado,Colombia,no
-MDE,Medellin Jose Maria Cordova,Colombia,no
-CLO,Cali Alfonso Bonilla Aragon,Colombia,no
-UIO,Quito Mariscal Sucre,Ecuador,no
-GYE,Guayaquil Jose Joaquin de Olmedo,Ecuador,no
-CCS,Caracas Simon Bolivar,Venezuela,no
-MVD,Montevideo Carrasco,Uruguay,no
+AGA,Agadir Al Massira,Morocco,no
+AGP,Malaga Airport,Spain,yes
+AJI,Agri Ahmed-i Hani Airport,Turkey,no
+AJU,Aracaju,Brazil,no
+AKL,Auckland Airport,New Zealand,no
+ALA,Almaty International,Kazakhstan,no
+ALG,Algiers Houari Boumediene,Algeria,no
+ALP,Aleppo International Airport,Syria,no
+AMM,Amman Queen Alia,Jordan,no
+AMS,Amsterdam Schiphol,Netherlands,yes
+ANR,Antwerp International Airport,Belgium,yes
+AOE,Eskisehir Hasan Polatkan Airport,Turkey,no
+AQJ,Aqaba King Hussein,Jordan,no
+ARN,Stockholm Arlanda,Sweden,yes
+ASB,Ashgabat International,Turkmenistan,no
+ASM,Asmara International,Eritrea,no
+ASR,Kayseri Erkilet Airport,Turkey,no
 ASU,Asuncion Silvio Pettirossi,Paraguay,no
-LPB,La Paz El Alto,Bolivia,no
-VVI,Santa Cruz Viru Viru,Bolivia,no
-PTY,Panama City Tocumen,Panama,no
-SJO,San Jose Juan Santamaria,Costa Rica,no
-GUA,Guatemala City La Aurora,Guatemala,no
-SAL,San Salvador,El Salvador,no
-MGA,Managua Augusto C Sandino,Nicaragua,no
-TGU,Tegucigalpa Toncontin,Honduras,no
-SAP,San Pedro Sula,Honduras,no
-MEX,Mexico City Benito Juarez,Mexico,no
-NLU,Mexico City Felipe Angeles,Mexico,no
-CUN,Cancun International,Mexico,no
-GDL,Guadalajara International,Mexico,no
-MTY,Monterrey International,Mexico,no
-HAV,Havana Jose Marti,Cuba,no
-SDQ,Santo Domingo Las Americas,Dominican Republic,no
-PUJ,Punta Cana International,Dominican Republic,no
-KIN,Kingston Norman Manley,Jamaica,no
-POS,Port of Spain Piarco,Trinidad and Tobago,no
-GEO,Georgetown Cheddi Jagan,Guyana,no
-JFK,New York John F Kennedy,United States,no
-EWR,Newark Liberty,United States,no
-LGA,New York LaGuardia,United States,no
-BOS,Boston Logan,United States,no
-IAD,Washington Dulles,United States,no
-DCA,Washington Reagan National,United States,no
+ATH,Athens Airport,Greece,yes
 ATL,Atlanta Hartsfield Jackson,United States,no
-MIA,Miami International,United States,no
-FLL,Fort Lauderdale Hollywood,United States,no
-MCO,Orlando International,United States,no
-ORD,Chicago O Hare,United States,no
-DFW,Dallas Fort Worth,United States,no
-IAH,Houston George Bush,United States,no
-DEN,Denver International,United States,no
-LAX,Los Angeles International,United States,no
-SFO,San Francisco International,United States,no
-SEA,Seattle Tacoma,United States,no
-LAS,Las Vegas Harry Reid,United States,no
-PHL,Philadelphia International,United States,no
+AUH,Abu Dhabi International,United Arab Emirates,no
+AYT,Antalya Airport,Turkey,no
+BAH,Bahrain International,Bahrain,no
+BAL,Batman Airport,Turkey,no
+BCN,Barcelona El Prat,Spain,yes
+BEG,Belgrade Nikola Tesla,Serbia,no
+BEL,Belem Val de Cans,Brazil,no
+BEN,Benghazi Benina,Libya,no
+BER,Berlin Brandenburg Airport,Germany,yes
+BEY,Beirut Rafic Hariri,Lebanon,no
+BGG,Bingol Airport,Turkey,no
+BGW,Baghdad International,Iraq,no
+BHX,Birmingham Airport,United Kingdom,no
+BJL,Banjul International,Gambia,no
+BJM,Melchior Ndadaye International Airport,Burundi,no
+BJV,Milas Bodrum Airport,Turkey,no
+BKK,Bangkok Suvarnabhumi,Thailand,no
+BKO,Bamako Modibo Keita,Mali,no
+BLQ,Bologna Airport,Italy,yes
+BLR,Bengaluru Kempegowda,India,no
+BNE,Brisbane Airport,Australia,no
+BOG,Bogota El Dorado,Colombia,no
+BOM,Mumbai Chhatrapati Shivaji,India,no
+BOS,Boston Logan,United States,no
+BPS,Porto Seguro,Brazil,no
+BRU,Brussels Airport,Belgium,yes
+BSB,Brasilia,Brazil,no
+BSR,Basra International,Iraq,no
+BUD,Budapest Airport,Hungary,yes
+BZI,Balikesir Merkez Airport,Turkey,no
+BZN,Balikesir Airport,Turkey,no
+BZV,Brazzaville Maya Maya,Republic of the Congo,no
+CAI,Cairo International,Egypt,no
+CAN,Guangzhou Baiyun,China,no
+CCS,Caracas Simon Bolivar,Venezuela,no
+CCU,Kolkata Netaji Subhas Chandra Bose,India,no
+CDG,Paris Charles de Gaulle,France,yes
+CEB,Cebu Mactan,Philippines,no
+CGB,Cuiaba Marechal Rondon,Brazil,no
+CGH,Sao Paulo Congonhas,Brazil,no
+CGK,Jakarta Soekarno Hatta,Indonesia,no
+CGN,Cologne Bonn Airport,Germany,yes
+CGP,Chittagong Shah Amanat,Bangladesh,no
+CGR,Campo Grande,Brazil,no
+CHC,Christchurch Airport,New Zealand,no
+CKY,Conakry International,Guinea,no
+CKZ,Canakkale Airport,Turkey,no
+CLO,Cali Alfonso Bonilla Aragon,Colombia,no
 CLT,Charlotte Douglas,United States,no
-YYZ,Toronto Pearson,Canada,no
+CMB,Colombo Bandaranaike,Sri Lanka,no
+CMN,Casablanca Mohammed V,Morocco,no
+CNF,Belo Horizonte Confins,Brazil,no
+COK,Kochi International,India,no
+COR,Cordoba Airport,Argentina,no
+COV,Cukurova International Airport,Turkey,no
+CPH,Copenhagen Airport,Denmark,yes
+CPT,Cape Town International,South Africa,no
+CRL,Brussels South Charleroi,Belgium,yes
+CTU,Chengdu Shuangliu,China,no
+CUN,Cancun International,Mexico,no
+CWB,Curitiba Afonso Pena,Brazil,no
+DAC,Dhaka Shahjalal,Bangladesh,no
+DAR,Dar es Salaam Julius Nyerere,Tanzania,no
+DCA,Washington Reagan National,United States,no
+DEL,Delhi Indira Gandhi,India,no
+DEN,Denver International,United States,no
+DFW,Dallas Fort Worth,United States,no
+DIY,Diyarbakir Airport,Turkey,no
+DJE,Djerba Zarzis,Tunisia,no
+DKR,Dakar Blaise Diagne,Senegal,no
+DLA,Douala International,Cameroon,no
+DLM,Dalaman Airport,Turkey,no
+DMK,Bangkok Don Mueang,Thailand,no
+DMM,Dammam King Fahd,Saudi Arabia,no
+DNZ,Denizli Cardak Airport,Turkey,no
+DOH,Doha Hamad International,Qatar,no
+DPS,Bali Denpasar,Indonesia,no
+DUB,Dublin Airport,Ireland,no
+DUR,Durban King Shaka,South Africa,no
+DUS,Dusseldorf Airport,Germany,yes
+DWC,Dubai Al Maktoum,United Arab Emirates,no
+DXB,Dubai International,United Arab Emirates,no
+DYU,Dushanbe International,Tajikistan,no
+EBB,Entebbe International,Uganda,no
+EBL,Erbil International,Iraq,no
+EDI,Edinburgh Airport,United Kingdom,no
+EDO,Balikesir Koca Seyit Airport,Turkey,no
+EIN,Eindhoven Airport,Netherlands,yes
+ERC,Erzincan Yildirim Akbulut Airport,Turkey,no
+ERZ,Erzurum Airport,Turkey,no
+ESB,Ankara Esenboga,Turkey,no
+EVN,Yerevan Airport,Armenia,no
+EWR,Newark Liberty,United States,no
+EZE,Buenos Aires Ezeiza,Argentina,no
+EZS,Elazig Airport,Turkey,no
+FAO,Faro Airport,Portugal,yes
+FCO,Rome Fiumicino,Italy,yes
+FEZ,Fes Saiss,Morocco,no
+FIH,Kinshasa N Djili,Democratic Republic of the Congo,no
+FLL,Fort Lauderdale Hollywood,United States,no
+FLN,Florianopolis,Brazil,no
+FNA,Freetown Lungi,Sierra Leone,no
+FNC,Madeira Airport,Portugal,yes
+FOR,Fortaleza,Brazil,no
+FRA,Frankfurt Airport,Germany,yes
+FRU,Bishkek Manas,Kyrgyzstan,no
+GDL,Guadalajara International,Mexico,no
+GEO,Georgetown Cheddi Jagan,Guyana,no
+GIG,Rio de Janeiro Galeao,Brazil,no
+GLA,Glasgow Airport,United Kingdom,no
+GMP,Seoul Gimpo,South Korea,no
+GNY,Sanliurfa GAP Airport,Turkey,no
+GRU,Sao Paulo Guarulhos,Brazil,no
+GUA,Guatemala City La Aurora,Guatemala,no
+GVA,Geneva Airport,Switzerland,yes
+GYD,Baku Heydar Aliyev,Azerbaijan,no
+GYE,Guayaquil Jose Joaquin de Olmedo,Ecuador,no
+GYN,Goiania Santa Genoveva,Brazil,no
+GZP,Gazipasa Alanya Airport,Turkey,no
+GZT,Gaziantep Oguzeli Airport,Turkey,no
+HAM,Hamburg Airport,Germany,yes
+HAN,Hanoi Noi Bai,Vietnam,no
+HAV,Havana Jose Marti,Cuba,no
+HEL,Helsinki Vantaa,Finland,yes
+HER,Heraklion International Airport,Greece,yes
+HGA,Hargeisa Egal International,Somalia,no
+HKG,Hong Kong International,Hong Kong,no
+HKT,Phuket International,Thailand,no
+HND,Tokyo Haneda,Japan,no
+HRG,Hurghada International,Egypt,no
+HTY,Hatay Airport,Turkey,no
+HYD,Hyderabad Rajiv Gandhi,India,no
+IAD,Washington Dulles,United States,no
+IAH,Houston George Bush,United States,no
+ICN,Seoul Incheon,South Korea,no
+IGD,Igdir Sehit Bulent Aydin Airport,Turkey,no
+IGU,Foz do Iguacu,Brazil,no
+IKA,Tehran Imam Khomeini,Iran,no
+IMP,Imperatriz,Brazil,no
+INI,Nis Airport,Serbia,no
+IOS,Ilheus Jorge Amado,Brazil,no
+ISB,Islamabad International,Pakistan,no
+ISE,Isparta Suleyman Demirel Airport,Turkey,no
+ISL,Istanbul Ataturk Airport,Turkey,no
+IST,Istanbul Airport,Turkey,no
+ISU,Sulaymaniyah International,Iraq,no
+JDO,Juazeiro do Norte,Brazil,no
+JED,Jeddah King Abdulaziz,Saudi Arabia,no
+JFK,New York John F Kennedy,United States,no
+JIB,Djibouti Ambouli,Djibouti,no
+JNB,Johannesburg OR Tambo,South Africa,no
+JPA,Joao Pessoa,Brazil,no
+JRO,Kilimanjaro International,Tanzania,no
+JUB,Juba International,South Sudan,no
+KBL,Kabul International,Afghanistan,no
+KCM,Kahramanmaras Airport,Turkey,no
+KCO,Kocaeli Cengiz Topel Airport,Turkey,no
+KFS,Kastamonu Airport,Turkey,no
+KGL,Kigali International,Rwanda,no
+KHI,Karachi Jinnah,Pakistan,no
+KIN,Kingston Norman Manley,Jamaica,no
+KIX,Osaka Kansai,Japan,no
+KMG,Kunming Changshui,China,no
+KRK,Krakow Airport,Poland,yes
+KRT,Khartoum International,Sudan,no
+KSY,Kars Harakani Airport,Turkey,no
+KTM,Kathmandu Tribhuvan,Nepal,no
+KUL,Kuala Lumpur International,Malaysia,no
+KUT,Kutaisi Airport,Georgia,no
+KWI,Kuwait International,Kuwait,no
+KYA,Konya Airport,Turkey,no
+KZR,Kutahya Zafer Airport,Turkey,no
+LAD,Luanda Quatro de Fevereiro,Angola,no
+LAS,Las Vegas Harry Reid,United States,no
+LAX,Los Angeles International,United States,no
+LBR,Labrea,Brazil,no
+LBV,Libreville Leon Mba,Gabon,no
+LDB,Londrina,Brazil,no
+LFW,Lome Tokoin International Airport,Togo,no
+LGA,New York LaGuardia,United States,no
+LGW,London Gatwick,United Kingdom,no
+LHE,Lahore Allama Iqbal,Pakistan,no
+LHR,London Heathrow,United Kingdom,no
+LIM,Lima Jorge Chavez,Peru,no
+LIN,Milan Linate,Italy,yes
+LIS,Lisbon Airport,Portugal,yes
+LJU,Ljubljana Airport,Slovenia,yes
+LOS,Lagos Murtala Muhammed,Nigeria,no
+LPA,Gran Canaria Airport,Spain,yes
+LPB,La Paz El Alto,Bolivia,no
+LTN,London Luton,United Kingdom,no
+LXR,Luxor International,Egypt,no
+LYS,Lyon Saint Exupery,France,yes
+MAA,Chennai International,India,no
+MAB,Maraba,Brazil,no
+MAD,Madrid Barajas,Spain,yes
+MAN,Manchester Airport,United Kingdom,no
+MAO,Manaus,Brazil,no
+MBA,Mombasa Moi,Kenya,no
+MCO,Orlando International,United States,no
+MCT,Muscat International,Oman,no
+MCZ,Maceio,Brazil,no
+MDE,Medellin Jose Maria Cordova,Colombia,no
+MDZ,Mendoza Airport,Argentina,no
+MED,Madinah Airport,Saudi Arabia,no
+MEL,Melbourne Tullamarine,Australia,no
+MEX,Mexico City Benito Juarez,Mexico,no
+MGA,Managua Augusto C Sandino,Nicaragua,no
+MGF,Maringa,Brazil,no
+MGQ,Mogadishu Aden Adde,Somalia,no
+MHD,Mashhad Airport,Iran,no
+MIA,Miami International,United States,no
+MIR,Monastir Habib Bourguiba,Tunisia,no
+MLA,Malta Airport,Malta,yes
+MLE,Male Velana,Maldives,no
+MLX,Malatya Erhac Airport,Turkey,no
+MNL,Manila Ninoy Aquino,Philippines,no
+MOG,Mong Hsat Airport,Myanmar,no
+MPM,Maputo International,Mozambique,no
+MQM,Mardin Prof Dr Aziz Sancar Airport,Turkey,no
+MRS,Marseille Provence,France,yes
+MRU,Mauritius Sir Seewoosagur Ramgoolam,Mauritius,no
+MSR,Mus Sultan Alparslan Airport,Turkey,no
+MTY,Monterrey International,Mexico,no
+MUC,Munich Airport,Germany,yes
+MVD,Montevideo Carrasco,Uruguay,no
+MXP,Milan Malpensa,Italy,yes
+MZH,Amasya Merzifon Airport,Turkey,no
+NAN,Nadi International,Fiji,no
+NAP,Naples Airport,Italy,yes
+NAT,Natal,Brazil,no
+NAV,Nevsehir Kapadokya Airport,Turkey,no
+NBJ,Dr Antonio Agostinho Neto International Airport,Angola,no
+NBO,Nairobi Jomo Kenyatta,Kenya,no
+NCE,Nice Cote d Azur,France,yes
+NDJ,N Djamena International,Chad,no
+NIM,Niamey Diori Hamani,Niger,no
+NJF,Najaf International,Iraq,no
+NKT,Sirnak Serafettin Elci Airport,Turkey,no
+NLU,Mexico City Felipe Angeles,Mexico,no
+NOP,Sinop Airport,Turkey,no
+NQZ,Astana Nursultan Nazarbayev,Kazakhstan,no
+NRT,Tokyo Narita,Japan,no
+NSI,Yaounde Nsimalen,Cameroon,no
+NVT,Navegantes,Brazil,no
+OGU,Ordu Giresun Airport,Turkey,no
+ONQ,Zonguldak Caycuma Airport,Turkey,no
+OPO,Porto Airport,Portugal,yes
+ORD,Chicago O Hare,United States,no
+ORN,Oran Ahmed Ben Bella,Algeria,no
+ORY,Paris Orly,France,yes
+OSL,Oslo Gardermoen,Norway,yes
+OTP,Bucharest Henri Coanda,Romania,yes
+OUA,Ouagadougou Airport,Burkina Faso,no
+PBM,Johan Adolf Pengel International Airport,Suriname,no
+PDL,Ponta Delgada Airport,Portugal,yes
+PEK,Beijing Capital,China,no
+PEN,Penang International,Malaysia,no
+PER,Perth Airport,Australia,no
+PEW,Peshawar Bacha Khan,Pakistan,no
+PHC,Port Harcourt International,Nigeria,no
+PHL,Philadelphia International,United States,no
+PKX,Beijing Daxing,China,no
+PMI,Palma de Mallorca Airport,Spain,yes
+PMW,Palmas,Brazil,no
+PNH,Phnom Penh International,Cambodia,no
+PNZ,Petrolina,Brazil,no
+POA,Porto Alegre,Brazil,no
+POS,Port of Spain Piarco,Trinidad and Tobago,no
+PRG,Prague Airport,Czech Republic,yes
+PRN,Pristina Airport,Kosovo,no
+PTY,Panama City Tocumen,Panama,no
+PUJ,Punta Cana International,Dominican Republic,no
+PVG,Shanghai Pudong,China,no
+PVH,Porto Velho,Brazil,no
+RAK,Marrakesh Menara,Morocco,no
+RAO,Ribeirao Preto,Brazil,no
+RBA,Rabat Sale,Morocco,no
+RBR,Rio Branco,Brazil,no
+REC,Recife,Brazil,no
+RGN,Yangon International,Myanmar,no
+RIX,Riga Airport,Latvia,yes
+RMO,Chisinau International Airport,Moldova,no
+ROB,Monrovia Roberts,Liberia,no
+RUH,Riyadh King Khalid,Saudi Arabia,no
+RZV,Rize Artvin Airport,Turkey,no
+SAL,San Salvador,El Salvador,no
+SAP,San Pedro Sula,Honduras,no
+SAW,Istanbul Sabiha Gokcen,Turkey,no
+SCL,Santiago Arturo Merino Benitez,Chile,no
+SDQ,Santo Domingo Las Americas,Dominican Republic,no
+SDU,Rio de Janeiro Santos Dumont,Brazil,no
+SEA,Seattle Tacoma,United States,no
+SEZ,Seychelles International,Seychelles,no
+SFO,San Francisco International,United States,no
+SFQ,Sanliurfa Airport,Turkey,no
+SGN,Ho Chi Minh City Tan Son Nhat,Vietnam,no
+SHA,Shanghai Hongqiao,China,no
+SHJ,Sharjah International,United Arab Emirates,no
+SIN,Singapore Changi,Singapore,no
+SJJ,Sarajevo Airport,Bosnia and Herzegovina,no
+SJO,San Jose Juan Santamaria,Costa Rica,no
+SKP,Skopje Airport,North Macedonia,no
+SLL,Salalah Airport,Oman,no
+SLZ,Sao Luis,Brazil,no
+SNN,Shannon Airport,Ireland,no
+SOF,Sofia Airport,Bulgaria,yes
+SSA,Salvador Bahia,Brazil,no
+SSH,Sharm El Sheikh International,Egypt,no
+STM,Santarem,Brazil,no
+STN,London Stansted,United Kingdom,no
+SVQ,Seville Airport,Spain,yes
+SXZ,Siirt Airport,Turkey,no
+SYD,Sydney Kingsford Smith,Australia,no
+SYZ,Shiraz Airport,Iran,no
+SZF,Samsun Carsamba Airport,Turkey,no
+SZX,Shenzhen Baoan,China,no
+TAS,Tashkent International,Uzbekistan,no
+TBS,Tbilisi Airport,Georgia,no
+TEQ,Tekirdag Corlu Ataturk Airport,Turkey,no
+TFS,Tenerife South Airport,Spain,yes
+TFU,Chengdu Tianfu,China,no
+TGD,Podgorica Airport,Montenegro,no
+TGU,Tegucigalpa Toncontin,Honduras,no
+THE,Teresina,Brazil,no
+THR,Tehran Mehrabad,Iran,no
+TIA,Tirana Airport,Albania,no
+TIP,Tripoli Mitiga,Libya,no
+TJK,Tokat Airport,Turkey,no
+TLL,Tallinn Airport,Estonia,yes
+TLV,Tel Aviv Ben Gurion,Israel,no
+TNG,Tangier Ibn Battouta,Morocco,no
+TNR,Antananarivo Ivato,Madagascar,no
+TPE,Taipei Taoyuan,Taiwan,no
+TUN,Tunis Carthage,Tunisia,no
+TZX,Trabzon Airport,Turkey,no
+UAB,Adana Incirlik Air Base,Turkey,no
+UBN,Chinggis Khaan International Airport,Mongolia,no
+UDI,Uberlandia,Brazil,no
+UIO,Quito Mariscal Sucre,Ecuador,no
+USQ,Usak Airport,Turkey,no
+VAN,Van Ferit Melen Airport,Turkey,no
+VCE,Venice Marco Polo,Italy,yes
+VCP,Campinas Viracopos,Brazil,no
+VIE,Vienna International,Austria,yes
+VIX,Vitoria Eurico de Aguiar Salles,Brazil,no
+VLC,Valencia Airport,Spain,yes
+VNO,Vilnius Airport,Lithuania,yes
+VTE,Vientiane Wattay,Laos,no
+VVI,Santa Cruz Viru Viru,Bolivia,no
+WAW,Warsaw Chopin,Poland,yes
+WLG,Wellington Airport,New Zealand,no
+XIY,Xian Xianyang,China,no
+YEI,Bursa Yenisehir Airport,Turkey,no
+YKO,Hakkari Yuksekova Selahaddin Eyyubi Airport,Turkey,no
+YOW,Ottawa International,Canada,no
 YUL,Montreal Trudeau,Canada,no
 YVR,Vancouver International,Canada,no
 YYC,Calgary International,Canada,no
-YOW,Ottawa International,Canada,no
-DEL,Delhi Indira Gandhi,India,no
-BOM,Mumbai Chhatrapati Shivaji,India,no
-BLR,Bengaluru Kempegowda,India,no
-MAA,Chennai International,India,no
-HYD,Hyderabad Rajiv Gandhi,India,no
-COK,Kochi International,India,no
-CCU,Kolkata Netaji Subhas Chandra Bose,India,no
-DAC,Dhaka Shahjalal,Bangladesh,no
-CGP,Chittagong Shah Amanat,Bangladesh,no
-KTM,Kathmandu Tribhuvan,Nepal,no
-CMB,Colombo Bandaranaike,Sri Lanka,no
-MLE,Male Velana,Maldives,no
-KHI,Karachi Jinnah,Pakistan,no
-LHE,Lahore Allama Iqbal,Pakistan,no
-ISB,Islamabad International,Pakistan,no
-PEW,Peshawar Bacha Khan,Pakistan,no
-KBL,Kabul International,Afghanistan,no
-TAS,Tashkent International,Uzbekistan,no
-ALA,Almaty International,Kazakhstan,no
-NQZ,Astana Nursultan Nazarbayev,Kazakhstan,no
-FRU,Bishkek Manas,Kyrgyzstan,no
-DYU,Dushanbe International,Tajikistan,no
-ASB,Ashgabat International,Turkmenistan,no
-BKK,Bangkok Suvarnabhumi,Thailand,no
-DMK,Bangkok Don Mueang,Thailand,no
-HKT,Phuket International,Thailand,no
-SIN,Singapore Changi,Singapore,no
-KUL,Kuala Lumpur International,Malaysia,no
-PEN,Penang International,Malaysia,no
-CGK,Jakarta Soekarno Hatta,Indonesia,no
-DPS,Bali Denpasar,Indonesia,no
-MNL,Manila Ninoy Aquino,Philippines,no
-CEB,Cebu Mactan,Philippines,no
-HAN,Hanoi Noi Bai,Vietnam,no
-SGN,Ho Chi Minh City Tan Son Nhat,Vietnam,no
-PNH,Phnom Penh International,Cambodia,no
-VTE,Vientiane Wattay,Laos,no
-RGN,Yangon International,Myanmar,no
-HKG,Hong Kong International,Hong Kong,no
-TPE,Taipei Taoyuan,Taiwan,no
-NRT,Tokyo Narita,Japan,no
-HND,Tokyo Haneda,Japan,no
-KIX,Osaka Kansai,Japan,no
-ICN,Seoul Incheon,South Korea,no
-GMP,Seoul Gimpo,South Korea,no
-PEK,Beijing Capital,China,no
-PKX,Beijing Daxing,China,no
-PVG,Shanghai Pudong,China,no
-SHA,Shanghai Hongqiao,China,no
-CAN,Guangzhou Baiyun,China,no
-SZX,Shenzhen Baoan,China,no
-CTU,Chengdu Shuangliu,China,no
-TFU,Chengdu Tianfu,China,no
-XIY,Xian Xianyang,China,no
-KMG,Kunming Changshui,China,no
-SYD,Sydney Kingsford Smith,Australia,no
-MEL,Melbourne Tullamarine,Australia,no
-BNE,Brisbane Airport,Australia,no
-PER,Perth Airport,Australia,no
-ADL,Adelaide Airport,Australia,no
-AKL,Auckland Airport,New Zealand,no
-CHC,Christchurch Airport,New Zealand,no
-WLG,Wellington Airport,New Zealand,no
-NAN,Nadi International,Fiji,no
-ALP,Aleppo International Airport,Syria,no
-BJM,Melchior Ndadaye International Airport,Burundi,no
-EZS,Elazig Airport,Turkey,no
-HER,Heraklion International Airport,Greece,yes
-KYA,Konya Airport,Turkey,no
-LFW,Lome Tokoin International Airport,Togo,no
-MOG,Mong Hsat Airport,Myanmar,no
-PBM,Johan Adolf Pengel International Airport,Suriname,no
-RMO,Chisinau International Airport,Moldova,no
-UBN,Chinggis Khaan International Airport,Mongolia,no
+YYZ,Toronto Pearson,Canada,no
+ZAG,Zagreb Airport,Croatia,yes
+ZNZ,Zanzibar Abeid Amani Karume,Tanzania,no
+ZRH,Zurich Airport,Switzerland,yes
